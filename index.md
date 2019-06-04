@@ -1,37 +1,272 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oowlish test</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src="https://kit.fontawesome.com/d0c5b222a3.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div id="cover">
+      </div>
+      <nav class="header container">
+        <div id="menu-toggler">
+          <a onclick="return false" href=""><i class="fas fa-bars"></i></a>
+        </div>
+        <div class="brand">
+          <a href=""><img src="images/brand.png" alt="Travlr"></a>
+        </div>
+        <div class="search-mobile">
+          <i class="fas fa-search"></i>
+        </div>
 
-You can use the [editor on GitHub](https://github.com/DalmonLima/dalmonlima.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+        <div class="search-large">
+          <input type="text" name="" value="" placeholder="Search" >
+          <i class="fas fa-search"></i>
+        </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        <ul class="menu-large">
+          <li><a href="">TESTE</a></li>
+          <li><a href="">Packages</a></li>
+          <li><a href="">Hotels</a></li>
+        </ul>
+      </nav>
+      <div class="menu-mobile">
+        <ul class="">
+          <li class="menu-mobile-item"><a href=""><img src="images/brand.png" alt="Travlr"></a> <a id="close-menu" onclick="return false" href=""><i class="fas fa-times"></i></a></li>
+          <li class="menu-mobile-item"><a href="">Flights</a></li>
+          <li class="menu-mobile-item"><a href="">Packages</a></li>
+          <li class="menu-mobile-item"><a href="">Hotels</a></li>
+        </ul>
+      </div>
+    </header>
 
-### Markdown
+    <section id="hero" class="container-fluid">
+      <div id="carousel">
+        <div id="carousel-img"></div>
+        <div id="indicators">
+          <ul>
+              <li><a href="#"><i class="far fa-circle"></i></a></li>
+              <li><a href="#"><i class="far fa-circle"></i></a></li>
+              <li><a href="#"><i class="fas fa-circle"></i></a></li>
+          </ul>
+        </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        <div class="container-fluid">
+          <div class="container">
+            <div class="organizer">
+              <div id="pop">
+                <span>Popular Destinations</span>
+                <h1 class="title">Walt Disney World</h1>
+                <div class="price">
+                  <span class="label">From</span>
+                  <span class="price-tag"><a href="#">$242</a></span>
 
-```markdown
-Syntax highlighted code block
+                </div>
+              </div>
+              <div id="hero-info" class="larger">
+                <h3 class="title">Discover the world</h3>
+                <p class="text">Travel to the most varied tourist destinations paying the lowest travel rates</p>
+                <div class="btn p-button" type="button" name="button">
+                  <p>Find Your Next Travel</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-# Header 1
-## Header 2
-### Header 3
+      </div>
+      <div id="hero-info" class="mobile">
+        <div class="container">
+          <h3 class="title">Discover the world</h3>
+          <p class="text">Travel to the most varied tourist destinations paying the lowest travel rates</p>
+          <div class="btn p-button" type="button" name="button">
+            <p>Find Your Next Travel</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-- Bulleted
-- List
+    <section id="testimonials">
+      <div class="container">
+        <h3 class="title">Customers testimonials</h3>
+        <div class="testimonials-wraper">
+          <div class="testimonial-card">
+            <div class="card-header">
+              <div class="image-cropper">
+                <img src="images/person_1.jpg" alt="">
+              </div>
+              <div class="card-header-id">
+                <span>Customer Name</span>
+                <span>Fortaleza, CE</span>
+              </div>
+            </div>
+            <h5 class="title">Lorem ipsum</h5>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p><a class="link" href="">Continue Reading</a></p>
+          </div>
+          <div class="testimonial-card">
+            <div class="card-header">
+              <div class="image-cropper">
+                <img src="images/person_2.jpg" alt="">
+              </div>
+              <div class="card-header-id">
+                <span>Customer Name</span>
+                <span>Fortaleza, CE</span>
+              </div>
+            </div>
+            <h5 class="title">Lorem ipsum</h5>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p><a class="link" href="">Continue Reading</a></p>
+          </div>
+          <div class="testimonial-card">
+            <div class="card-header">
+              <div class="image-cropper">
+                <img src="images/person_3.jpg" alt="">
+              </div>
+              <div class="card-header-id">
+                <span>Customer Name</span>
+                <span>Fortaleza, CE</span>
+              </div>
+            </div>
+            <h5 class="title">Lorem ipsum</h5>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p><a class="link" href="">Continue Reading</a></p>
+          </div>
+          <div class="testimonial-card">
+            <div class="card-header">
+              <div class="image-cropper">
+                <img src="images/person_4.jpg" alt="">
+              </div>
+              <div class="card-header-id">
+                <span>Customer Name</span>
+                <span>Fortaleza, CE</span>
+              </div>
+            </div>
+            <h5 class="title">Lorem ipsum</h5>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+            <p><a class="link" href="">Continue Reading</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-1. Numbered
-2. List
+    <section id="newsletter" class="container-fluid">
+      <div class="container">
+        <h4 class="title">Travel Better</h4>
+        <p class="text">Always be the first to receive our special offers, cupons, travel tips and suggestions.</p>
+        <div class="test">
+          <div class="mail-field">
+            <input type="email" name="email" placeholder="Enter yout email address">
+          </div>
+          <div class="btn p-button">
+            <p>Send Me Deals</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-**Bold** and _Italic_ and `Code` text
+    <section id="packages" class="container-fluid">
+      <div class="container">
+        <h4 class="title">Popular Travel Packages</h4>
+        <p class="text">Prices reflect the lowest available travel cost in the last 30 days period</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Travel Destiny</th>
+              <th>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>San Antonio, Texas - EUA</td>
+              <td class="price-column"><a href="" class="price">$461</a></td>
+            </tr>
+            <tr>
+              <td>Puebla, Mexico</td>
+              <td class="price-column"><a href="" class="price">$421</a></td>
+            </tr>
+            <tr>
+              <td>Hawaii - USA</td>
+              <td class="price-column"><a href="" class="price">$254</a></td>
+            </tr>
+            <tr>
+              <td>St. Helena</td>
+              <td class="price-column"><a href="" class="price">$634</a></td>
+            </tr>
+            <tr>
+              <td>Province of Laguna - Philippines</td>
+              <td class="price-column"><a href="" class="price">$834</a></td>
+            </tr>
+            <tr>
+              <td>The Balkan Peninsula</td>
+              <td class="price-column"><a href="" class="price">$234</a></td>
+            </tr>
+            <tr>
+              <td>Agra, India</td>
+              <td class="price-column"><a href="" class="price">$524</a></td>
+            </tr>
+            <tr>
+              <td>Budapest, Hungary</td>
+              <td class="price-column"><a href="" class="price">$376</a></td>
+            </tr>
+            <tr>
+              <td>Buenos Aires, Argentina</td>
+              <td class="price-column"><a href="" class="price">$720</a></td>
+            </tr>
+            <tr>
+              <td>Gobi Desert, Mongolia</td>
+              <td class="price-column"><a href="" class="price">$280</a></td>
+            </tr>
 
-[Link](url) and ![Image](src)
-```
+          </tbody>
+        </table>
+        <div class="centralize">
+          <div class="btn s-button">
+            <p>Check All Offers</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    <section id="app">
+      <div class="container">
+        <div class="centralize">
+          <img src="images/app.png" alt="">
+        </div>
+      </div>
+    </section>
 
-### Jekyll Themes
+    <section id="legal">
+      <div class="container">
+        <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </section>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DalmonLima/dalmonlima.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    <footer>
+      <div class="container content">
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Terms & Conditions</a></li>
+        </ul>
 
-### Support or Contact
+        <ul id="social">
+          <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        </ul>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+  </body>
+</html>
